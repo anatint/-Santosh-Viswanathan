@@ -166,3 +166,8 @@ h2{font-family:var(--serif);font-weight:700;color:var(--ink);line-height:1.12;le
 @media (min-width:1280px){
   .hero-photo img{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 34%,#000 80%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 34%,#000 80%,transparent 100%)}
 }
+
+.footer-social{display:flex;gap:10px;margin-left:auto}
+.footer-social a{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--navy);color:#fff;transition:background .2s}
+.footer-social a:hover{background:var(--gold)}
+@media (max-width:720px){.footer-social{margin-left:0;margin-top:8px}}
