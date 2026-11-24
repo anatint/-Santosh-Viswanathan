@@ -175,3 +175,8 @@ h2{font-family:var(--serif);font-weight:700;color:var(--ink);line-height:1.12;le
 .footer-social a{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--navy);color:#fff;transition:background .2s}
 .footer-social a:hover{background:var(--gold)}
 @media (max-width:720px){.footer-social{margin-left:0;margin-top:8px}}
+
+.timeline p a{color:var(--navy);text-decoration:underline;text-underline-offset:2px}
+.timeline p a:hover{color:var(--gold-text)}
+.media-actions{display:flex;flex-wrap:wrap;gap:14px}
+.btn-video svg{flex:none}
