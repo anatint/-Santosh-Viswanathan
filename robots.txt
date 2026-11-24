@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace with the confirmed domain
+Sitemap: https://www.santoshviswanathan.com/sitemap.xml
