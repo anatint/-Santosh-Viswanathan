@@ -1,3 +1,7 @@
+@font-face{font-family:"Inter";font-style:normal;font-weight:400 600;font-display:swap;src:url(assets/fonts/inter-latin-variable.woff2) format("woff2")}
+@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:600 800;font-display:swap;src:url(assets/fonts/source-serif-4-latin-variable.woff2) format("woff2")}
+@font-face{font-family:"Source Serif 4";font-style:italic;font-weight:400;font-display:swap;src:url(assets/fonts/source-serif-4-italic-latin.woff2) format("woff2")}
+@font-face{font-family:"Inter Fallback";src:local("Arial");size-adjust:107.4%;ascent-override:90.2%;descent-override:22.5%;line-gap-override:0%}
 :root{
   --navy:#0b2a52;
   --navy-deep:#071d3b;
@@ -8,7 +12,7 @@
   --muted:#5a6678;
   --line:#c9d1dc;
   --serif:"Source Serif 4","Merriweather",Georgia,"Times New Roman",serif;
-  --sans:"Inter","Helvetica Neue",Arial,sans-serif;
+  --sans:"Inter","Inter Fallback","Helvetica Neue",Arial,sans-serif;
   --pad:clamp(18px,5vw,96px);
   --header-h:58px;
 }
@@ -100,7 +104,7 @@ h2{font-family:var(--serif);font-weight:700;color:var(--ink);line-height:1.12;le
 .connect{max-width:1760px;margin:0 auto;padding:0 var(--pad) 48px}
 .connect-card{position:relative;overflow:hidden;border-radius:12px;min-height:115px;padding:20px 40px 20px 70px;display:flex;align-items:center;gap:32px;color:#fff;
   background:
-   url("assets/images/linkedin-bg.webp") right 22% center/auto 100% no-repeat,
+   url("assets/images/linkedin-section-background.webp") right 22% center/auto 100% no-repeat,
    radial-gradient(120% 160% at 85% 0%,#1d5a9c 0%,rgba(29,90,156,0) 55%),
    linear-gradient(100deg,#0a2447 0%,#0d3363 55%,#0a2a52 100%)}
 .connect-card::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(7,29,59,.9) 0%,rgba(10,36,71,.85) 45%,rgba(10,36,71,.45) 100%);pointer-events:none}
