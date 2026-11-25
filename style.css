@@ -178,3 +178,6 @@ h2{font-family:var(--serif);font-weight:700;color:var(--ink);line-height:1.12;le
 
 .media-actions{display:flex;flex-wrap:wrap;gap:14px}
 .btn-video svg{flex:none}
+
+.footer-email{color:var(--ink);text-decoration:none}
+.footer-email:hover{color:var(--gold-text);text-decoration:underline}
